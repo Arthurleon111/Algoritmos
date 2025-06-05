@@ -2,35 +2,34 @@
 questao 3 
 programa {
   funcao inicio() {
+
     //declarando variaveis
     cadeia  nome
     real nota1, nota2, nota3, nota4, media
     //entrada de dados 
     escreva ("escreva seu nome:")
     leia(nome)
-    escreva("Infrorme a primeira nota: ")
+    escreva("Informe a primeira nota: ")
     leia(nota1)
-    escreva("Infrorme a segunda nota: ")
+    escreva("Informe a segunda nota: ")
     leia(nota2)
-    escreva("Infrorme a terceira nota: ")
+    escreva("Informe a terceira nota: ")
     leia(nota3)
-    escreva("Infrorme a quarta nota: ")
+    escreva("Informe a quarta nota: ")
     leia(nota4)
     //processamento
     media = nota1 + nota2 + nota3 + nota4 /4
     //SAIDA DE DADOS
-    escreva("A média do aluno: ", nome , media)
+    escreva("A média do aluno: ", nome ," é ", media)
   
 
   }
 }
-
 questao 4
 
 
-
 questao 5
-programa {
+
   funcao inicio() {
     
     real altura,peso
@@ -46,6 +45,4 @@ programa {
 
     escreva("O seu peso ideal é",peso)
 
-
-  }
 }
