@@ -167,7 +167,67 @@ programa {
 }
 
 Linguagem C
+#include <stdio.h>
+
+int main() {
+	float x , y, troca;
+	
+	printf("Informe o valor de x \n");
+	scanf("%f",&x);
+	
+	printf("Informe o valor de y \n");
+	scanf("%f",&y);
+	
+	printf("Os valores de x e y antes da troca sao:  %2.f %f \n",x, y);
+	
+	troca=x;
+	x=y;
+	y=troca;
+	
+	printf("Os valores de x e y depois da troca sao:  %2.f %2.f \n", x,y);
+
+	return 0;
+}
 
 Questão 7
+portugol
 
+programa {
+  funcao inicio() {
+    real raio, comprimento, diametro ,pi
+    const real pi = 3.14
+
+    escreva("Digite o valor do raio da circunferência: ")
+    leia(raio)
+
+    const real diametro = 2 * raio
+    const real comprimento= 2 * pi * raio
+    const real area= pi* (raio * raio)
+  
+
+  escreva("O diâmetro é: ", diametro, "\n")
+  escreva("A área é: ", area, "\n")
+  escreva("O comprimento é: ", comprimento, "\n")
+  }
+}
+
+Linguagem C
+
+#include <stdio.h>
+
+int main() {
+    float raio, diametro, comprimento, area;
+    const float pi = 3.14;
+
+    printf("Digite o valor do raio da circunferência: ");
+    scanf("%f", &raio);
+
+    diametro = 2 * raio;
+    comprimento = 2 * pi * raio;
+    area = pi * raio * raio;
+
+    printf("O diametro e: %.2f\n", diametro);
+    printf("O comprimento e: %.2f\n", comprimento);
+    printf("A area : %.2f\n", area);
+}
 
