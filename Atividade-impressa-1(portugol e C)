@@ -48,7 +48,7 @@ int main() {
 	
 	media = (n1 + n2 + n3 + n4 )/4;
 	
-  printf("A sua media e: %2.f", media);
+  printf("A sua media e: %.2f", media);
 
 }
 
@@ -93,7 +93,7 @@ int main() {
 	
 	media = (m1 + m2 + m3)/3;
 	
-	printf("A media de gastos em gasolina nos 3 meses foi:  %2.f", media);
+	printf("A media de gastos em gasolina nos 3 meses foi:  %.2f", media);
 	
 	
 }
@@ -178,13 +178,13 @@ int main() {
 	printf("Informe o valor de y \n");
 	scanf("%f",&y);
 	
-	printf("Os valores de x e y antes da troca sao:  %2.f %f \n",x, y);
+	printf("Os valores de x e y antes da troca sao:  %.2f %f \n",x, y);
 	
 	troca=x;
 	x=y;
 	y=troca;
 	
-	printf("Os valores de x e y depois da troca sao:  %2.f %2.f \n", x,y);
+	printf("Os valores de x e y depois da troca sao:  %.2f %.2f \n", x,y);
 
 	return 0;
 }
@@ -260,8 +260,8 @@ int main() {
 	
 	fahrenheit = (grau_celsius * 1.8) + 32;
 	
-	printf("Temperatura em  celsius:  %2.f\n",grau_celsius);
-    printf("\nTemperatura transformada em fahrenheit: %2.f\n",fahrenheit);
+	printf("Temperatura em  celsius:  %.2f\n",grau_celsius);
+    printf("\nTemperatura transformada em fahrenheit: %.2f\n",fahrenheit);
 
 }
 
