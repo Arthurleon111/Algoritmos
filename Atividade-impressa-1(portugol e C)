@@ -137,7 +137,7 @@ int main() {
 	
 	peso_ideal =  k*altura-b;
 	
-	printf("O peso ideal para a altura %.2f m e: %.2f", altura,peso_ideal);
+	printf("O peso ideal para a altura %.2fm e: %.2f", altura,peso_ideal);
 
 }
 
